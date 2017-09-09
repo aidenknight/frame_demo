@@ -1,0 +1,27 @@
+{
+    "name": "aidenknight/frame_dome",
+    "description": "简单的PHP初学者框架",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aiden knight",
+            "email": "17090025418@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "filp/whoops": "^2.0@dev"
+    },
+    "autoload":{
+        "files":[
+            "system/helper.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app\\",
+            "system\\":"system\\"
+        }
+    }
+
+}
